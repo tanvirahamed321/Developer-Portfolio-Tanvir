@@ -17,6 +17,17 @@ body{
     font-weight: 700; 
     padding: 15px 35px;
 }
+.section-title{
+    color: #181818 ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
 
 /* nav related styles */
 nav{
@@ -29,7 +40,7 @@ nav{
 .nav-title{
 
     color:white;
-    font-size: 45px;
+    font-size: 70px;
     font-weight: 800;
 
 }
@@ -48,18 +59,44 @@ nav a{
 }
     /* header related styles */
     header{
-        background-color: rgba(144, 43, 226, 0.87);
+        background-color: rgba(43, 189, 226, 0.795);
        
     }
 
     .banner{
-        padding: 30px 30px 30px 150px;
+        padding: 30px 30px 0px 150px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     .banner-content{
         color: white;
+        max-width: 500px;
+    }
+    .banner-greeting{
+        font-size: 45px;
+        color: white;
+        margin-bottom: 0;
+    }
+    .banner-title{
+        font-size:85px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .banner-description{
+        font-size:30px;
+        font-weight: 400;
     }
     .profile-pic{
         width: 500px;
+    }
+    /* main section styles */
+
+    /* about section styles */
+    .about{
+        padding: 130px;
+        border-radius: 10px;
+        background: lightcoral;
+        margin: 130px 0;
     }
