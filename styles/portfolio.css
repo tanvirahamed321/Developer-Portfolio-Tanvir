@@ -137,4 +137,45 @@ nav a{
     .skill-description{
         color: #757575;
     }
-   
+    /* resume section styles */
+    .resume-column-title{
+           color: #474747;
+           font-size:30px;
+           font-weight: 700;
+    }
+    .resume-container{
+        display: flex;
+        gap: 50px;
+    }
+    .resume-item-title{
+        color: #474747;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    ..resume-item-institute{
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+   .resume-item-institute, .resume-item-description{
+               
+   }
+   .resume-container hr{
+    margin: 30px;
+   }
+   .download-cv{
+    margin: 30px;
+    text-align: center;
+   }
+   /* footer styles */
+   footer{
+    margin-top: 100px;
+     display: flex;
+     gap: 100px;
+     background: #fd630ac1;
+     padding:130px 200px ;
+   }
+   .footer-column{
+     width: 50%;
+   }
