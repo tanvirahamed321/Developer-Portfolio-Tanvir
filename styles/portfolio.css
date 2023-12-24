@@ -60,7 +60,11 @@ nav a{
     /* header related styles */
     header{
         background-color: rgba(43, 189, 226, 0.795);
-       
+       background-image: url('../images/developer-gold-text.png');
+       background-repeat: no-repeat;
+       background-position: top left;
+
+
     }
 
     .banner{
